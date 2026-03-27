@@ -1,0 +1,19 @@
+[project]
+name = "dgb-local"
+version = "0.1.0"
+description = "Local uv environment for the DGB research repository."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "matplotlib<3.9",
+    "numba<0.62",
+    "numpy<2",
+    "pandas<2.3",
+    "scikit-learn<1.6",
+    "seaborn<0.14",
+    "torch>=2.2,<2.8",
+    "tqdm>=4.41",
+]
+
+[tool.uv]
+package = false
